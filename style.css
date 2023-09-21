@@ -28,8 +28,8 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 20px;
-    font-size: 32px;
+    padding: 10px;
+    font-size: 26px;
     background-color: var(--primary-color);
     margin-bottom: 30px;
     border-bottom: 3px solid var(--text-color);
@@ -178,10 +178,7 @@ footer>a {
 @media screen and (max-width: 570px) {
     header {
         margin-bottom: 20px;
-    }
-
-    h1 {
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 
