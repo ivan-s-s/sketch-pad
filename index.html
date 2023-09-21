@@ -7,16 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sketch Pad</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./paintbrush-solid.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/14eb71cf09.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
-
+        <h1><i class="fa-solid fa-paintbrush"></i> Etch a Sketch</h1>
     </header>
-    <main>
-
+    <main class="main">
+        <div class="menu">
+            <input id="colorPic" type="color" name="color" value="#f31f1f" title="color">
+            <button id="btnEraser" title="eraser"><i class="fa-solid fa-eraser"></i></button>
+            <button id="btnClear" title="clear"><i class="fa-solid fa-trash-can"></i></button>
+            <button id="btnRandomColor" title="random color mode"><i class="fa-solid fa-palette"></i></button>
+            <button id="btnGrid" title="Grid Background"><i class="fa-solid fa-border-all"></i></button>
+        </div>
+        <div class="size">
+            <div class="sizeNow">16 x 16</div>
+            <input id="sizeRange" type="range" value="16" min="4" max="64" class="sizeRange">
+        </div>
     </main>
     <footer>
         Copyright &#169;
